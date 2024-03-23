@@ -6,6 +6,11 @@ public class Shape {
         return 0;
     }
 
+    public Shape(double height, double base){
+        this.base = base;
+        this.height = height;
+    }
+
     public double getBase() {
         return base;
     }
