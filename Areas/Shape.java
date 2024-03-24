@@ -1,3 +1,5 @@
+package Areas;
+
 public class Shape {
     private double height;
     private double length;

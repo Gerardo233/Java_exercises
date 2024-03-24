@@ -1,4 +1,6 @@
-public class Circle extends Shape{
+package Areas;
+
+public class Circle extends Shape {
     private final  double PI = 3.14;
 
 

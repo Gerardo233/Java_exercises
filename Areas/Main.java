@@ -1,3 +1,5 @@
+package Areas;
+
 import java.util.Scanner;
 public  class Main {
     public void Menu(){
@@ -7,7 +9,7 @@ public  class Main {
     }
 
     public  void AskShapeValues(Scanner input, Shape shape) {
-        if(shape.getNumSides() == 2){
+        if(shape.getNumSides() >= 2){
             shape.setRadio(0);
             System.out.println("Type the height: ");
             double height = input.nextInt();
