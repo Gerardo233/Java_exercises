@@ -1,5 +1,2 @@
-public class Triangle extends Shape {
-    public Triangle(double height, double base){
-        super(height, base);
-    }
+public class Triangle extends Shape{
 }

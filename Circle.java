@@ -1,5 +1,11 @@
 public class Circle extends Shape{
-    public Circle(double height, double base){
-        super(height, base);
+    private double radio;
+
+    public double getRadio() {
+        return radio;
+    }
+
+    public void setRadio(double radio) {
+        this.radio = radio;
     }
 }

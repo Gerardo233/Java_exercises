@@ -1,22 +1,10 @@
 public class Shape {
     private double height;
-    private double base;
+    private double length;
+    private String name;
 
     public double CalcArea(){
         return 0;
-    }
-
-    public Shape(double height, double base){
-        this.base = base;
-        this.height = height;
-    }
-
-    public double getBase() {
-        return base;
-    }
-
-    public void setBase(double base) {
-        this.base = base;
     }
 
     public double getHeight() {
@@ -25,5 +13,21 @@ public class Shape {
 
     public void setHeight(double height) {
         this.height = height;
+    }
+
+    public double getLength() {
+        return length;
+    }
+
+    public void setLength(double length) {
+        this.length = length;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
