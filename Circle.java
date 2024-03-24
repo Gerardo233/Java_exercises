@@ -1,11 +1,9 @@
 public class Circle extends Shape{
-    private double radio;
+    private final  double PI = 3.14;
 
-    public double getRadio() {
-        return radio;
-    }
 
-    public void setRadio(double radio) {
-        this.radio = radio;
+    public double CalcArea(double radio){
+        return (PI*(radio*radio));
     }
 }
+
